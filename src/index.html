@@ -18,14 +18,37 @@
 
 <body>
     <div class="wrapper">
+<<<<<<< HEAD
         <header class="header">
             <span>全场包邮 低至5元</span>
         </header>
         <section class="section">
 
+=======
+        <header class="header"></header>
+        <section class="section">
+            <div class="swiper-container zcontent">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide zslide1"></div>
+                    <div class="swiper-slide zslide2"></div>
+                    <div class="swiper-slide zslide3"></div>
+                    <div class="swiper-slide zslide4"></div>
+                    <div class="swiper-slide zslide5"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+>>>>>>> 8f6c81b8a34425d8c4b9036d4e6641d07e5ad59e
         </section>
         <footer class="footer"></footer>
     </div>
+    <script>
+        var mySwiper = new Swiper('.zcontent', {
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            }
+        })
+    </script>
 </body>
 
 </html>
