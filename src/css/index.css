@@ -250,11 +250,6 @@ html {
   height: 1.33333rem;
 }
 
-<<<<<<< HEAD
-.header span {
-  color: #CE6D80;
-  font-size: 0.42667rem;
-=======
 .wrapper .footer .tuls {
   width: 100%;
   height: 1.33333rem;
@@ -282,5 +277,9 @@ html {
 .wrapper .footer .tuls li i {
   margin-top: 0.13333rem;
   font-size: 0.58667rem;
->>>>>>> dev
+}
+
+.header span {
+  color: #CE6D80;
+  font-size: 0.42667rem;
 }
