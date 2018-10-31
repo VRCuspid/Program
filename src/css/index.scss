@@ -16,5 +16,22 @@
     .footer {
         width: 100%;
         height: pxTorem(50px);
+        .tuls {
+            width: 100%;
+            height: pxTorem(50px);
+            @include box_flex;
+            li {
+                width: 20%;
+                height: pxTorem(50px);
+                @include box_flex;
+                @include direction(column);
+                @include justify(space-between);
+                @include align;
+                i {
+                    margin-top: pxTorem(5px);
+                    font-size: pxTorem(22px);
+                }
+            }
+        }
     }
 }
