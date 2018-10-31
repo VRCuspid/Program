@@ -18,3 +18,17 @@
         height: pxTorem(50px);
     }
 }
+
+.s-nav {
+    width: 100%;
+    height: pxTorem(44px);
+    line-height: pxTorem(44px);
+    overflow: hidden;
+    .s-nav-slide {
+        width: pxTorem(100px)*12;
+    }
+    .s-nav-slide li {
+        display: inline-block;
+        width: pxTorem(100px);
+    }
+}

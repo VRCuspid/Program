@@ -18,10 +18,34 @@
 
 <body>
     <div class="wrapper">
-        <header class="header"></header>
-        <section class="section"></section>
+        <header class="header">
+        </header>
+        <section class="section">
+            <ul class="s-nav">
+                <div class="s-nav-slide">
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                </div>
+            </ul>
+        </section>
         <footer class="footer"></footer>
     </div>
+    <script>
+        var sScroll = new BScroll('.s-nav', {
+            click: true,
+            probetype: 2,
+            scrollX: true
+        });
+    </script>
 </body>
 
 </html>
