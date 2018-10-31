@@ -12,6 +12,28 @@
     .section {
         width: 100%;
         @include flex;
+        .swiper-container,
+        .swiper-wrapper,
+        .swiper-slide {
+            width: 100%;
+            height: 100%;
+            height: pxTorem(200px);
+            .zslide1 {
+                background: red;
+            }
+            .zslide2 {
+                background: green;
+            }
+            .zslide3 {
+                background: pink;
+            }
+            .zslide4 {
+                background: chartreuse;
+            }
+            .zslide5 {
+                background: skyblue;
+            }
+        }
     }
     .footer {
         width: 100%;

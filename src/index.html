@@ -19,9 +19,28 @@
 <body>
     <div class="wrapper">
         <header class="header"></header>
-        <section class="section"></section>
+        <section class="section">
+            <div class="swiper-container zcontent">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide zslide1"></div>
+                    <div class="swiper-slide zslide2"></div>
+                    <div class="swiper-slide zslide3"></div>
+                    <div class="swiper-slide zslide4"></div>
+                    <div class="swiper-slide zslide5"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
         <footer class="footer"></footer>
     </div>
+    <script>
+        var mySwiper = new Swiper('.zcontent', {
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            }
+        })
+    </script>
 </body>
 
 </html>
