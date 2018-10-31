@@ -8,6 +8,8 @@
     .header {
         width: 100%;
         height: pxTorem(44px);
+        text-align: center;
+        line-height: pxTorem(44px);
     }
     .section {
         width: 100%;
@@ -17,4 +19,9 @@
         width: 100%;
         height: pxTorem(50px);
     }
+}
+
+.header span {
+    color: #CE6D80;
+    font-size: pxTorem(16px);
 }

@@ -197,6 +197,8 @@ html {
 .wrapper .header {
   width: 100%;
   height: 1.17333rem;
+  text-align: center;
+  line-height: 1.17333rem;
 }
 
 .wrapper .section {
@@ -208,4 +210,9 @@ html {
 .wrapper .footer {
   width: 100%;
   height: 1.33333rem;
+}
+
+.header span {
+  color: #CE6D80;
+  font-size: 0.42667rem;
 }
